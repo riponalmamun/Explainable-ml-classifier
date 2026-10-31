@@ -1,0 +1,45 @@
+{
+  "metrics": {
+    "logistic_regression": {
+      "accuracy": 0.986,
+      "f1": 0.9889,
+      "roc_auc": 0.9977
+    },
+    "random_forest": {
+      "accuracy": 0.958,
+      "f1": 0.967,
+      "roc_auc": 0.9949
+    }
+  },
+  "global_top_features": {
+    "worst area": 0.0854,
+    "worst perimeter": 0.0834,
+    "worst concave points": 0.0538,
+    "worst radius": 0.0493,
+    "mean concave points": 0.0466,
+    "area error": 0.0284,
+    "mean area": 0.0248,
+    "worst concavity": 0.0232,
+    "mean concavity": 0.0218,
+    "mean perimeter": 0.0214
+  },
+  "local_explanation": {
+    "sample_index": 0,
+    "predicted_class": "benign",
+    "probability_of_benign": 0.969,
+    "intercept": 0.2806,
+    "top_contributions": {
+      "worst texture": 0.7871,
+      "worst concavity": 0.4924,
+      "worst concave points": 0.4726,
+      "worst smoothness": -0.448,
+      "worst area": 0.4118,
+      "mean smoothness": -0.3722,
+      "mean concavity": 0.3506,
+      "worst radius": 0.3348,
+      "compactness error": -0.3326,
+      "mean concave points": 0.3214
+    }
+  },
+  "true_label": "benign"
+}
